@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WallpaperView">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/finalwallpaperpage"
+        android:background="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:id="@+id/backarrow"
+        android:background="@drawable/backarrow"
+        android:layout_margin="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp">
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_marginStart="35dp"
+            android:id="@+id/downloadarrow"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/downloadbtn"/>
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginEnd="35dp"
+            android:id="@+id/sharebtn"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/share"/>
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/setwallpaper"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wallpaper"/>
+    </RelativeLayout>
+
+</RelativeLayout>

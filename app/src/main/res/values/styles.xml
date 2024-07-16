@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" theme="Theme.MaterialComponents.Light.NoActionBar" >
+        <item name="colorPrimary">@color/color_light</item>
+    </style>
+</resources>

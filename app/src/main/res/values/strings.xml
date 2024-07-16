@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">wallpapermy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">AIzaSyD_Xk1EM5MnNYY4iaLk1827RdWUkvl0bkE</string>
+
+</resources>
